@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ 
+  section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: chartreuse;
+    height: 100vh;
+    
+  }
+  
+  nav {
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background-color: #04437e;
+    padding: 20px;
+  }
+  
+  article {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    background: linear-gradient(rgb(143, 229, 3), rgb(65, 170, 208));
+    padding: 10px;
+  }
+  
